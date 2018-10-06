@@ -1,0 +1,23 @@
+{
+  "name": "tslint-config-stoplight",
+  "description": "Shared Stoplight linting rules.",
+  "version": "0.0.0",
+  "author": "Stoplight <support@stoplight.io>",
+  "license": "MIT",
+  "main": "tslint.json",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "peerDependencies": {
+    "typescript": "3.x.x"
+  },
+  "dependencies": {
+    "prettier": "1.14.x",
+    "tslint": "5.11.x",
+    "tslint-config-prettier": "1.15.x",
+    "tslint-plugin-prettier": "2.0.x"
+  },
+  "devDependencies": {
+    "typescript": "3.x.x"
+  }
+}
