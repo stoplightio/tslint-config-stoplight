@@ -19,7 +19,10 @@
   },
 
   "rules": {
-    "prettier": true,
+    "prettier": [
+      true,
+      { "printWidth": 120, "trailingComma": "es5", "singleQuote": true }
+    ],
     "object-literal-sort-keys": false,
     "radix": false,
     "variable-name": false,
@@ -33,7 +36,10 @@
   },
 
   "jsRules": {
-    "prettier": true,
+    "prettier": [
+      true,
+      { "printWidth": 120, "trailingComma": "es5", "singleQuote": true }
+    ],
     "object-literal-sort-keys": false,
     "radix": false
   }
