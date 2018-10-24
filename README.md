@@ -3,7 +3,7 @@
 #### Install
 
 ```
-yarn tslint tslint-config-stoplight
+yarn add -D tslint tslint-config-stoplight
 ```
 
 #### Setup
