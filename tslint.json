@@ -19,7 +19,7 @@
   },
 
   "rules": {
-    "prettier": true,
+    "prettier": [true, { "printWidth": 120 }]
     "object-literal-sort-keys": false,
     "radix": false,
     "variable-name": false,
@@ -33,7 +33,7 @@
   },
 
   "jsRules": {
-    "prettier": true,
+    "prettier": [true, { "printWidth": 120 }]
     "object-literal-sort-keys": false,
     "radix": false
   }
