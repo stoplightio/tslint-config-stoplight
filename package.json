@@ -5,6 +5,10 @@
   "author": "Stoplight <support@stoplight.io>",
   "license": "MIT",
   "main": "tslint.json",
+  "files": [
+    "README.md",
+    "tslint.json"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
