@@ -20,7 +20,7 @@
   "rules": {
     "prettier": [
       true,
-      { "printWidth": 120, "trailingComma": "es5", "singleQuote": true }
+      { "printWidth": 120, "trailingComma": "all", "singleQuote": true }
     ],
     "object-literal-sort-keys": false,
     "radix": false,
