@@ -20,7 +20,7 @@
   "rules": {
     "prettier": [
       true,
-      { "printWidth": 120, "trailingComma": "es5", "singleQuote": true }
+      { "printWidth": 120, "trailingComma": "all", "singleQuote": true }
     ],
     "object-literal-sort-keys": false,
     "radix": false,
@@ -31,7 +31,8 @@
     "ban-types": false,
     "max-classes-per-file": [true, 3],
     "no-var-requires": false,
-    "member-ordering": false
+    "member-ordering": false,
+    "no-floating-promises": true
   },
 
   "jsRules": {
