@@ -13,7 +13,8 @@
       "build/**",
       "coverage/**",
       ".cache-loader/**",
-      "node_modules/**"
+      "node_modules/**",
+      "**/*.json"
     ]
   },
 
@@ -32,7 +33,15 @@
     "max-classes-per-file": [true, 3],
     "no-var-requires": false,
     "member-ordering": false,
-    "no-floating-promises": true
+    "no-floating-promises": true,
+    "forin": false,
+
+    // React related rules.
+    // note to leverage these you must add `tslint-react` and `tslint-react-hooks` to
+    // your tslint `extends` property.
+    "react-hooks-nesting": "error",
+    "jsx-boolean-value": false,
+    "jsx-no-multiline-js": false
   },
 
   "jsRules": {
@@ -41,6 +50,15 @@
       { "printWidth": 120, "trailingComma": "es5", "singleQuote": true }
     ],
     "object-literal-sort-keys": false,
-    "radix": false
+    "radix": false,
+    "variable-name": false,
+    "curly": false,
+    "no-console": false,
+    "no-empty-interface": false,
+    "ban-types": false,
+    "max-classes-per-file": [true, 3],
+    "no-var-requires": false,
+    "member-ordering": false,
+    "forin": false
   }
 }
