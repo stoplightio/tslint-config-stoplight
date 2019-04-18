@@ -32,7 +32,8 @@
     "max-classes-per-file": [true, 3],
     "no-var-requires": false,
     "member-ordering": false,
-    "no-floating-promises": true
+    "no-floating-promises": true,
+    "interface-over-type-literal": false
   },
 
   "jsRules": {
