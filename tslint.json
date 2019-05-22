@@ -37,7 +37,13 @@
     "no-var-requires": false,
     "member-ordering": false,
     "no-floating-promises": true,
-    "no-implicit-dependencies": true
+    "no-implicit-dependencies": [
+      true,
+      [
+        "tests",
+        "__tests__"
+      ]
+    ]
   },
   "jsRules": {
     "prettier": [
